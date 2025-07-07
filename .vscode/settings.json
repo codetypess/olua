@@ -1,0 +1,8 @@
+{
+  "editor.snippetSuggestions": "bottom",
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "addons": true
+  },
+  "cmake.buildDirectory": "${workspaceFolder}/build"
+}

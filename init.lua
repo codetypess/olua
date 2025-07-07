@@ -107,7 +107,7 @@ if not isdir(OLUA_HOME) or not isdir(OLUA_HOME .. "/" .. lua) or not isdir(OLUA_
         os.execute(cmd)
     end
 
-    local url = "https://github.com/zhongfq/olua/releases/download/" .. OLUA_VERSION
+    local url = "https://github.com/codetypess/olua/releases/download/" .. OLUA_VERSION
     local deps = { "include.zip", ("%s-%s.zip"):format(lua, osn) }
     for _, v in ipairs(deps) do
         wget(url .. "/" .. v, dir .. "/" .. v)
